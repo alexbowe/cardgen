@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from Cheetah.Template import Template
+from cheetah.Template import Template
 import re, sys, optparse
 
 template = 'template.tex'
