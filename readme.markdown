@@ -1,7 +1,7 @@
 Cardgen
 =======
 
-To build example design pattern intent cards, run makefile to generate design pattern cards from intents.txt
+To build an example, run makefile to generate design pattern cards from intents.txt
 
 
 Cardgen Usage
