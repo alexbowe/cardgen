@@ -1,0 +1,9 @@
+# LaTeX #
+*.aux
+*.log
+
+# Python #
+*.pyc
+
+# OS Stuff #
+.DS_Store

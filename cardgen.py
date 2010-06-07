@@ -3,7 +3,7 @@ from Cheetah.Template import Template
 import re, sys, optparse
 
 template = 'template.tex'
-re_text = '^(.+):$\n((?:\n?.+)+)\n*'
+re_text = r'^(.+):$\n((?:\n?.+)+)\n*'
 rec = re.compile(re_text, re.MULTILINE)
 
 # Eat stderr
