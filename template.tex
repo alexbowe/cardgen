@@ -1,0 +1,12 @@
+\documentclass[avery5371,frame]{flashcards}
+
+\begin{document}
+    
+#for $card in $cards
+\begin{flashcard}{$card.group(1)}
+$card.group(2)
+\end{flashcard}
+
+
+#end for
+\end{document}
