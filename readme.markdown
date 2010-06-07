@@ -1,22 +1,31 @@
 Cardgen
 =======
 
-Run make on makefile to generate design pattern cards from intents.txt
+To build example design pattern intent cards, run make on makefile to generate design pattern cards from intents.txt
+
 
 Cardgen Usage
 -------------
 
-	./cardgen.py -h for help
+For help:
 
-	./cardgen.py -i <inputfile> -o <outputfile>
+	./cardgen.py -h 
 
-OR (using pipes):
+To run:
 
-	cat <inputfile> | ./flashgen.py > <outputfile>
+	./cardgen.py -i inputfile -o outputfile
 
+or using stdin/stdout:
+
+	./cardgen.py < inputfile > outputfile
+	
 
 Inputfile Structure
 -------------------
 
-	Title:
-	Definition (can take multiple lines)
+	First Card:
+	Definition Line 1
+	Definition Line 2
+	
+	Second Card:
+	Single Line Definition
